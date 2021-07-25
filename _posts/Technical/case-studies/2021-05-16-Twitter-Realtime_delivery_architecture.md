@@ -106,7 +106,7 @@ Twitter's Hosebird cluster consists of 4 layers of cascading.
 **Fact:** Socal graph of a user changes 10 times more often than actual tweets
 
 
-![alt text2](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter_push-arch.jpeg)
+![alt text2](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter_push-arch.jpeg?raw=true)
 
 
 

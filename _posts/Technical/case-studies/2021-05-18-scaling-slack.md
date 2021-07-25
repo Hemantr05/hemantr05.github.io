@@ -24,7 +24,7 @@ Slack is mainly known for its **Persistent Group Messaging** service.
 
 
 
-![alt text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_arch.jpeg)
+![alt text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_arch.jpeg?raw=true)
 
 **Slack's webapp codebase:**
 
@@ -37,10 +37,10 @@ Slack is mainly known for its **Persistent Group Messaging** service.
 
 **Login and Receive Messages: the "mains"**
 
-![the mains](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_the_mains.jpeg)
+![the mains](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_the_mains.jpeg?raw=true)
 
 
-![the shards](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_the_shards.jpeg)
+![the shards](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_the_shards.jpeg?raw=true)
 
 MySQL Shards:
 
@@ -62,7 +62,7 @@ How is MySQL used then?
 
 At slack, MySQL is used for ***master-master replication***
 
-![MMR text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_MMR.jpeg)
+![MMR text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_MMR.jpeg?raw=true)
 
 This helps in retreiving data from one shard in case of failure of the other, as write operations are performed on both shards simultaneously.
 
@@ -116,7 +116,7 @@ Rtm.start payload
 
 **Message Delivery**
 
-![msg delivery](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_msg_delivery.jpeg)
+![msg delivery](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_msg_delivery.jpeg?raw=true)
 
 * There exists a race between rtm.start and connection to MS (Message Server)
     * Event log machanism (the hash in the above websocket url, points to the event log)
@@ -130,7 +130,7 @@ Rtm.start payload
 
 Deferring Work:
 
-![def work](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_def_work.jpeg)
+![def work](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/slack_def_work.jpeg?raw=true)
 
 * Slack uses Redis as a Job Queue
 
