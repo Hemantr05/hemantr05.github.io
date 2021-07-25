@@ -1,1 +1,0 @@
-## Personal Blog made using Jekyll
