@@ -37,7 +37,7 @@ A tweet made by a user will first the so-called ***write API*** (an HTTP endpoin
 
 After the HTTP response, the tweet is fanned out to the hometimelines of all the followers of the user (author of the tweet).
 
-![alt text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter/entire-arch.jpeg)
+![alt text](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter_entire-arch.jpeg)
 
 
 The timeline cache is based on a bank of Redis instances (in-memory, key-value storage), which unlike memcache (allows binary blobs) deals with the structure of the data.
@@ -106,7 +106,7 @@ Twitter's Hosebird cluster consists of 4 layers of cascading.
 **Fact:** Socal graph of a user changes 10 times more often than actual tweets
 
 
-![alt text2](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter/push-arch.jpeg)
+![alt text2](https://github.com/Hemantr05/hemantr05.github.io/blob/new_portfolio/assets/img/twitter_push-arch.jpeg)
 
 
 
