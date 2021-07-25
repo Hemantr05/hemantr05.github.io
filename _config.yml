@@ -20,11 +20,11 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:               'Hemant's Blog'
-description:         'Experiences, thoughts and technical stuff! :D'
+title:               'Personal Blog'
+description:         'Experiences, thoughts and technical stuff! :D '
 author:              'Hemant Rakesh'
 baseurl:             'hemantr05.github.io'
-url:                 'https://hemantr05.github.io/'
+url:                 ''
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
