@@ -23,6 +23,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:               'Personal Blog'
 description:         'Experiences, thoughts and technical stuff! :D '
 author:              'Hemant Rakesh'
+baseurl:             'hemantr05.github.io'
+url:                 ''
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
