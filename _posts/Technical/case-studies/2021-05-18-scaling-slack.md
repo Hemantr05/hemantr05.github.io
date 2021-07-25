@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Scaling Slack"
-date : 2020-05-18
+date : 2021-05-18
 categories : Technical/case-studies
 ---
 
