@@ -25,7 +25,28 @@ description:         'Experiences, thoughts and technical stuff! :D '
 author:              'Hemant Rakesh'
 baseurl:             'hemantr05.github.io'
 url:                 ''
-
+links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.co.in/citations?user=XpfyeOgAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ashutoshml"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ashutosh-kumar-04a0325b/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ashutoshk2401"
+    - label: "Goodreads"
+      icon: "fab fa-fw fa-goodreads"
+      url: "https://www.goodreads.com/user/show/51184901-ashutosh"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://ashutoshk2401.medium.com/"
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
